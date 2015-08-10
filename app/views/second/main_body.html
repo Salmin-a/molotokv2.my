@@ -1,0 +1,90 @@
+<table width="100%">
+    <tr>
+        <td colspan="3">
+            Шапка
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            Хлебные крошки:
+            <ul>
+                <repeat group="{{ @breadcrumbs }}" value="{{ @item }}">
+                    <li style="display: inline-block;">
+                        <a href="{{ trim(@item.url) }} "> {{ trim(@item.name) }} </a>
+                    </li>
+                </repeat>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <check if="isset({{ @menu['left1'] }})">
+                <ul>
+                    <repeat group="{{ @menu['left1'] }}" value="{{ @item }}">
+                        <check if="{{ @item.class=='active' }}">
+                            <true>
+                                <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                            </true>
+                            <false>
+                                <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                            </false>
+                        </check>
+                    </repeat>
+                </ul>
+            </check>
+
+            <check if="isset({{ @menu['left2'] }})">
+                <ul>
+                    <repeat group="{{ @menu['left2'] }}" value="{{ @item }}">
+
+                        <check if="{{ @item.class=='active' }}">
+                            <true>
+                                <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                            </true>
+                            <false>
+                                <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                            </false>
+                        </check>
+
+                    </repeat>
+                </ul>
+            </check>
+
+            <repeat group="{{ @module }}" value="{{ @item }}">
+                <check if="{{ @item.position == 'left' }}">
+                    {{ @item.html|raw }}
+                </check>
+            </repeat>
+        </td>
+        <td>
+            {{ @content.html | raw}}
+        </td>
+        <td>
+            <check if="isset({{ @menu['right'] }})">
+                <ul>
+                    <repeat group="{{ @menu['right'] }}" value="{{ @item }}">
+                        <check if="{{ @item.class=='active' }}">
+                            <true>
+                                <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                            </true>
+                            <false>
+                                <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                            </false>
+                        </check>
+                    </repeat>
+                </ul>
+            </check>
+
+            <repeat group="{{ @module }}" value="{{ @item }}">
+                <check if="{{ @item.position == 'right' }}">
+                    {{ @item.html|raw }}
+                </check>
+            </repeat>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            Футер
+        </td>
+    </tr>
+</table>

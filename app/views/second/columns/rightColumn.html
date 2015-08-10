@@ -1,0 +1,16 @@
+<div id="rightColumn" class="sidebar">
+
+    <repeat group="{{ @module }}" value="{{ @item }}">
+        <check if="{{ @item.position == 'right_top' }}">
+            {{ @item.html|raw }}
+        </check>
+    </repeat>
+
+
+    <repeat group="{{ @module }}" value="{{ @item }}">
+        <check if="{{ @item.position == 'right_bottom' }}">
+            {{ @item.html|raw }}
+        </check>
+    </repeat>
+
+

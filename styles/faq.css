@@ -1,0 +1,381 @@
+h2 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 25px;
+}
+.entry-meta {
+    color: #666;
+    margin: 5px 0;
+    font-size: .85em;
+}
+.single .entry-meta {
+    font-size: 1em;
+    margin: 15px 0;
+}
+ul.tags {
+    text-transform: capitalize;
+}
+.no-comment {
+    background: #999
+}
+.comment-exists {
+    background: #1C4488;
+}
+.no-comment, .comment-exists {
+    position: relative;
+    font-size: x-small;
+    color: white;
+    padding: 2px 8px;
+    top: -2px;
+    left: 10px;
+    border-radius: 10px;
+}
+.comments-link {
+    display: block;
+    font-size: small;
+    margin: 5px 0 0 0;
+}
+#comments-title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.comment-edit-link {
+    margin-top: 10px;
+    display: inline-block
+}
+.single .comment-body {
+    margin: 0 20px 0 60px;
+    border: 1px solid #ddd;
+    position: relative;
+    top: -20px;
+    background: #FFFCF2;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #F3DDB6;
+}
+.comment-body {
+    margin: 30px 20px 0 60px;
+    border: 1px solid #ddd;
+    position: relative;
+    top: -20px;
+    background: #FFFCF2;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #F3DDB6;
+}
+.single .entry-content {
+    border: 1px solid #E1D9CA;
+    margin: 15px 0 0 0;
+    padding: 20px 20px 30px 20px;
+    border-radius: 12px;
+    background: #FBFAF7;
+}
+.logged-in-as {
+    margin: 5px 0
+}
+.single .entry-content.nocomment {
+    padding: 20px;
+}
+.add_post {
+    background: #F5F2ED;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #E1D9CA
+}
+.add_post a {
+    display: inline-block;
+    padding: 2px 14px 3px 14px;
+    color: white;
+    background: #DC9E2C;
+    border: 1px solid #DC9E2C;
+    border-radius: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.add_post a:hover {
+    color: white !important;
+    background: #827D73
+}
+
+.single .add_post a {
+    margin-top: 0;
+}
+
+.molot-feedback .stip-box input, .molot-feedback .stip-box select {
+    width: 40%;
+    background: white;
+    border: 3px solid #DC9E2C;
+    padding: 2px 0;
+    font-size: 14px;
+    display: block;
+}
+.molot-feedback .stip-box select {
+    padding-right: 2px
+}
+.molot-feedback .stip-box textarea, #comment {
+    width: 99%;
+    height: 150px;
+    background: white;
+    border: 3px solid #DC9E2C;
+    padding: 2px 0;
+    font-size: 14px;
+    display: block;
+}
+.molot-feedback .stip-box h2 {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.molot-feedback .stip-box .submit, #submit {
+    padding: 4px 18px 5px 18px;
+    color: white;
+    background: #1C4488 url(/images/order-bg.jpg) 0 0 repeat-x;
+    border: 1px solid #1C4488;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: auto
+}
+.molot-feedback .error {
+    color: red;
+    margin: 5px 0 5px 0;
+}
+.molot-feedback .success {
+    margin-top: 20px;
+    font-weight: bold
+}
+#stip-message {
+    margin: 15px 0 0 0;
+    font-size: 14px;
+}
+.molot-feedback small {
+    display: block;
+    color: #777;
+    font-size: 1em;
+    margin: 5px 0 5px 0;
+}
+h1.cat {
+    border-bottom: none;
+    margin-bottom: 5px
+}
+.loop-question {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px
+}
+.loop-question.last {
+    border-bottom: 0
+}
+.nav-previous span, .nav-next span {
+    margin: 0 2px 0 0;
+    bottom: -1px;
+    position: relative;
+    font-size: 1.7em;
+    line-height: normal;
+}
+.nav-previous, .nav-next {
+    margin: 10px 0 0 0;
+    border-radius: 8px;
+    float: left;
+    background: #1C4488;
+}
+.nav-next {
+    float: right;
+}
+.nav-previous a, .nav-next a {
+    display: block;
+    padding: 0 12px 2px 12px;
+    text-decoration: none;
+    color: white;
+}
+a.nyroModal.video {
+    background: url(/otzyvy/images/review/video.png) no-repeat -2px -3px;
+    padding-left: 25px;
+    line-height: 22px;
+}
+a.nyroModal.document {
+    background: url(/otzyvy/images/review/document.png) no-repeat -2px -3px;
+    padding-left: 24px;
+    line-height: 22px;
+}
+.loop-question h2 img {
+    vertical-align: top;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+div.pager {
+    margin-top: 15px !important;
+}
+ul.yiiPager a {
+    padding: 5px 10px !important;
+    border-radius: 5px;
+}
+
+ul.yiiPager .page a {
+    background: white;
+    color: #0e509e;
+    border: solid 1px #9aafe5
+}
+
+ul.yiiPager .selected a {
+    color: white;
+    background: #1C4488;
+    border: 1px #1C4488 solid;
+}
+
+.list-view {
+    margin-bottom: 10px;
+}
+.list-view .pager {
+    text-align: center !important;
+}
+#nav-above {
+    margin-top: 5px;
+}
+
+#review-form {
+    display: none;
+}
+
+#review-form .form-inline label, #review-form .form-inline input {
+    float: left;
+}
+
+#review-form .form-inline input {
+    margin-right: 5px;
+}
+
+#review-form table {
+    width: 100%;
+    margin: 4px
+}
+#review-form table td {
+    padding: 0 23px 0 0;
+}
+#review-form table td.author {
+    padding: 0 18px 0 0;
+}
+#review-form table td:first-child {
+    width: 50%;
+}
+
+#review-form input.submit {
+    padding: 4px 18px 5px 18px;
+    color: #fff;
+    background: #1c4488 url(/images/order-bg.jpg) 0 0 repeat-x;
+    border: 1px solid #1c4488;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#review-form span.required {
+    color: red;
+}
+
+#review-form input[type=text], #review-form textarea {
+    background: #fff;
+    border: 1px solid #c5c2be;
+    padding: 2px 0;
+    margin-top: 7px;
+    font-size: 14px;
+    display: block;
+}
+#review-form input[type=text] {
+    width: 100%;
+}
+#review-form textarea {
+    width: 100%;
+    height: 130px;
+    resize: none;
+}
+#review-form label {
+    display: block;
+    margin-top: 23px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#review-form label.switch {
+    display: inline;
+    font-size: 14px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+#review-form h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-top: 15px;
+}
+#review-form td.recommend {
+    padding-top: 10px;
+}
+#review-form td.rating > label {
+    margin-bottom: 7px
+}
+
+.review {
+    margin: 20px 0;
+    background: #F5F2ED;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #E1D9CA;
+}
+.review .nav {
+    float: right;
+    width: 28%;
+    padding: 0 1% 0 1%;
+    margin: 2% 0;
+}
+
+.review .nav > div {
+    padding-left: 20px;
+    border-left: 1px solid #E1D9CA;
+}
+
+.review .item {
+    font-size: 12px;
+    color: #635F58;
+    float: left;
+    width: 64%;
+    padding: 2% 4% 2% 2%;
+}
+.review .item .details {
+    margin-top: 10px;
+    line-height: 1.7;
+}
+.review .nav span {
+    color: #635F58;
+    font-size: 11px;
+    display: block;
+    padding-left: 22px;
+}
+.review .nav span a {
+    color: #635F58;
+    text-decoration: none;
+}
+
+.review .nav span.link {
+    background: url(/images/review/link.png) no-repeat 0 1px;
+}
+.review .nav span.author {
+    line-height: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: url(/images/review/author.png) no-repeat 0 1px;
+}
+.review .nav span.date {
+    background: url(/images/review/calendar.png) no-repeat 0 1px;
+}
+.review.recommend {
+    min-height: 210px;
+    background: #F5F2ED url(/images/review/recommend.png) no-repeat 90% 100%;
+}

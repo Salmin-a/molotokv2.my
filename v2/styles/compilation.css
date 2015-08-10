@@ -1,0 +1,1321 @@
+#main {
+    background: url(/images/main-content-bg.jpg) 50% 0 repeat-x;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+#navigation {
+    margin-top: 10px;
+    background: url(/images/navigation-bg.png) 50% 0 repeat-x;
+    height: 70px;
+}
+#navigation ul.links {
+    overflow: hidden;
+    padding: 27px 20px 0 20px;
+}
+#navigation li.link {
+    float: left;
+}
+#navigation div.category {
+    font-size: 16px;
+}
+#navigation div.category a {
+    color: #000;
+}
+#navigation div.category em {
+    display: none;
+}
+#navigation div.category a:hover {
+    color: #000 !important;
+}
+#navigation li:last-child {
+    float: right;
+}
+#navigation ul.links ul {
+    display: none;
+}
+#more {
+    position: absolute;
+    padding: 11px 17px 15px 17px;
+    background: #fff;
+    border: 3px solid #e6b74d;
+    border-radius: 12px;
+}
+#more div.category {
+    font-size: 16px;
+}
+.categorymenu {
+    margin-top: 15px;
+    font-size: 16px;
+}
+#more div.category em {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #827d73;
+}
+#more div.category a {
+    color: #000;
+}
+#more div.category a:hover {
+    color: #dc9e2c !important;
+}
+#more div.category {
+    margin-bottom: 6px;
+}
+#more li {
+    margin-top: 3px;
+}
+#more li.subcategory {
+    margin-top: 12px;
+}
+#more li.subcategory a {
+    font-size: 14px;
+    color: #000;
+}
+#more li.project {
+    padding-left: 16px;
+    background: url(/images/star-icon.png) 0 4px no-repeat;
+}
+#more li.project a {
+    color: #dc9e2c;
+}
+
+#roller {
+    position: relative;
+    top: -20px;
+    left: 62%;
+    width: 170px;
+    height: 149px;
+    margin-bottom: -140px;
+}
+
+#columns {
+    overflow: hidden;
+}
+#columns #content-wrapper {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+#columns #content {
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#columns div.sidebar.left {
+    float: left;
+    width: 205px;
+    margin-left: -100%;
+    position: relative;
+}
+#columns div.sidebar.right {
+    float: left;
+    width: 205px;
+    margin-left: -205px;
+    position: relative;
+}
+
+#content div.intro {
+    overflow: hidden;
+    margin-top: 20px;
+
+    padding-bottom: 20px;
+}
+#content div.description-wrapper {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+#content div.description {
+    margin-left: 255px;
+}
+#content div.description ul {
+}
+#content div.description ul li {
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 18px;
+}
+#content div.description ul li:before {
+    content: '— ';
+    position: relative;
+    margin-left: -18px;
+}
+#content div.description p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#content .intro div.image {
+    float: left;
+    width: 225px;
+    margin-left: -100%;
+    position: relative;
+}
+
+#content .intro div.image img {
+    border-radius: 12px;
+}
+
+#content .intro div.order {
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+
+#content .intro div.order a {
+    display: block;
+    float: left;
+    padding: 4px 18px 5px 18px;
+    color: #fff;
+    background: #1c4488 url(/images/order-bg.jpg) 0 0 repeat-x;
+    border: 1px solid #1c4488;
+    border-radius: 12px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#content div.tabs-links {
+    margin-top: 30px;
+}
+
+#content div.tabs-links ul {
+    overflow: hidden;
+}
+#content div.tabs-links ul li {
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 30px;
+    color: #1c4488;
+    border-bottom: 1px dotted #1c4488;
+    cursor: pointer;
+}
+#content div.tabs-links ul li a {
+    text-decoration: none;
+}
+#content div.tabs-links ul li:hover {
+    color: #dc9e2c;
+    border-bottom-color: #dc9e2c;
+}
+#content div.tabs-links ul li.active {
+    color: #000;
+    border-bottom: 0;
+    cursor: default;
+}
+#content div.tabs-links ul li:last-child {
+    margin-right: 0;
+}
+
+#content div.tabs-content-item {
+    display: none;
+}
+
+#content div.tabs-content-item.active {
+    display: block;
+}
+
+#content div.tabs {
+    border:none!important;
+}
+
+
+
+
+
+#content div.tabs-banner.banner_ceiling {
+    margin-bottom: 15px !important
+}
+
+#content div.tabs-banner {
+    background: url(/images/tab_banner/bg.jpg) 0 0 repeat-x;
+    border: 1px solid #1C4488;
+    padding-left: 20px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+#content div.tabs-banner div.gift {
+    float: left;
+    margin-right: 15px;
+}
+#content div.tabs-banner .title {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    line-height: 1.1
+}
+#content div.tabs-banner .descr {
+    font-size: 1.2em;
+    color: white
+}
+
+#content div.pricelist {
+    margin-top: 20px;
+}
+#content div.pricelist table {
+    width: 100%;
+}
+#content div.pricelist table th {
+    background: #e4e8f0 url(/images/content-blue-bg.jpg) 0 0 repeat-x;
+    font-size: 14px;
+    white-space: nowrap;
+    text-shadow: 1px 1px #fff;
+    border-right: 1px solid #e0e0e0;
+}
+#content div.pricelist table th, #content div.pricelist table td {
+    padding: 9px 10px;
+    border: 1px solid #e0e0e0;
+}
+#content div.pricelist table td {
+    line-height: 16px;
+    vertical-align: middle;
+}
+#content div.pricelist table tr:hover td {
+    background: #faf0d9 url(/images/content-yellow-bg.jpg) 0 0 repeat-x;
+}
+#content div.pricelist table td.photo span {
+    display: block;
+    font-size: 11px;
+    text-align: center;
+}
+#content div.pricelist th.name {
+    width: 100%;
+}
+#content div.pricelist th.price {
+    text-align: center;
+}
+#content div.pricelist td.price {
+    color: #1c4488;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+}
+#content div.pricelist td.price_strike {
+    text-decoration: line-through;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+}
+#content div.pricelist td.unit {
+    text-align: center;
+    color: #999;
+    white-space: nowrap;
+}
+#content div.pricelist .tip {
+    border-bottom: 1px dotted;
+    cursor: help
+}
+#content div.pricelist div.note {
+    background: #e4e8f0 url(/images/content-blue-bg.jpg) 0 0 repeat-x;
+    border: 1px solid #E0E0E0;
+    border-top: none
+}
+#content div.pricelist div.note div {
+    background: url(/images/offer-note.png) 15px 7px no-repeat;
+    padding: 10px 20px 10px 50px;
+}
+
+#content div.portfolio {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: 20px;
+    padding: 5px 0 20px 0;
+}
+
+#content div.types {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: 20px;
+    padding: 5px 0 20px 0;
+}
+
+#content div.types table {
+    width: 100%;
+}
+
+#content div.types img {
+    border-radius: 12px;
+}
+
+#content div.system {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: 20px;
+    padding: 5px 0 20px 0;
+}
+#content div.portfolio table {
+    width: 100%;
+}
+#content div.portfolio td {
+    padding-top: 15px;
+}
+#content div.portfolio img {
+    width: 90%;
+    border-radius: 12px;
+    vertical-align: bottom;
+}
+
+#content div.certificate {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: 20px;
+    padding: 5px 0 20px 0;
+}
+#content div.certificate table {
+    width: 100%;
+}
+#content div.certificate td {
+    padding-top: 15px;
+}
+#content div.certificate img {
+    width: 90%;
+    border-radius: 12px;
+    vertical-align: bottom;
+}
+
+#content div.offer {
+
+
+}
+#content div.offer img {
+    border-radius: 5px;
+}
+#content div.offer div.name {
+    font-size: 18px;
+    line-height: 18px;
+}
+#content div.offer p {
+    font-size: 11px;
+    line-height: 14px;
+    margin-top: 3px;
+}
+#content div.offer div.value {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+}
+#content div.offer td {
+    vertical-align: middle;
+    border-bottom: 1px solid #c2c9d8;
+}
+#content div.offer td.price {
+    white-space: nowrap;
+    padding: 20px 20px 20px 20px;
+    color: #1c4488;
+    text-align: right;
+    text-shadow: 1px 1px #fff;
+}
+#content div.offer td.image {
+    padding: 20px 0 20px 20px;
+}
+#content div.offer td.text {
+    padding: 20px 0 20px 20px;
+}
+#content div.offer tr:hover td {
+    background: #faf0d9 url(/images/content-yellow-bg.jpg) 0 0 repeat-x;
+}
+#content div.offer div.note {
+    background: url(/images/offer-note.png) 35px 2px no-repeat;
+    padding: 0 20px 0 90px;
+    margin: 15px 0;
+}
+
+#content div.projects {
+    margin-top: 20px;
+}
+#content div.projects table.buttons {
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+#content div.projects table.buttons div {
+    border: 1px solid #e0e0e0;
+    margin-top: 15px;
+    width: 90%;
+    padding: 20px 0;
+}
+#content div.projects table.buttons div:hover {
+    cursor: pointer;
+}
+#content div.projects table.buttons div.active {
+    background: #e4e8f0 url(/images/content-blue-bg.jpg) 0 0 repeat-x;
+    cursor: default;
+}
+#content div.projects table.buttons div span {
+    color: #1c4488;
+    border-bottom: 1px dotted #1c4488;
+    text-shadow: 1px 1px #fff;
+}
+#content div.projects table.buttons div:hover span {
+    color: #dc9e2c;
+    border-bottom-color: #dc9e2c;
+}
+#content div.projects table.buttons div.active span {
+    color: #000;
+    border-bottom: 0;
+}
+#content div.projects div.name {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #827d73;
+}
+#content div.projects div.project {
+    margin-top: 10px;
+}
+
+#content div.project {
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    margin-top: 20px;
+}
+#content div.project div.categories table {
+    width: 100%;
+    background: #e4e8f0 url(/images/content-blue-bg.jpg) 0 0 repeat-x;
+}
+#content div.project div.categories td {
+    background-color: #fff;
+    font-size: 14px;
+    padding: 15px 0 15px 20px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    cursor: pointer;
+    white-space: nowrap;
+    text-shadow: 1px 1px #fff;
+}
+#content div.project div.categories td:last-child {
+    border-right: 0;
+}
+#content div.project div.categories td span {
+    color: #1c4488;
+    border-bottom: 1px dotted #1c4488;
+}
+#content div.project div.categories td:hover span {
+    color: #dc9e2c;
+    border-bottom-color: #dc9e2c;
+}
+#content div.project div.categories td.office {
+    background-image: url(/images/projects-office-icon.png);
+    background-position: 130px 100%;
+    background-repeat: no-repeat;
+}
+#content div.project div.categories td.flat {
+    background-image: url(/images/projects-flat-icon.png);
+    background-position: 130px 100%;
+    background-repeat: no-repeat;
+}
+#content div.project div.categories td.wood {
+    background-image: url(/images/projects-house-wood-icon.png);
+    background-position: 130px 100%;
+    background-repeat: no-repeat;
+}
+#content div.project div.categories td.brick {
+    background-image: url(/images/projects-house-brick-icon.png);
+    background-position: 130px 100%;
+    background-repeat: no-repeat;
+}
+#content div.project div.categories td.active {
+    cursor: default;
+    background-color: transparent;
+}
+#content div.project div.categories td.active span {
+    color: #000;
+    border-bottom: 0;
+}
+#content div.project div.options {
+    padding: 10px 20px 15px 20px;
+    background: #faf0d9 url(/images/content-yellow-bg.jpg) 0 0 repeat-x;
+    text-shadow: 1px 1px #fff;
+    border-top: 1px solid #e0e0e0;
+}
+#content div.project div.options td {
+    padding: 5px 0 0 0;
+    vertical-align: middle;
+}
+#content div.project div.options select {
+    width: 100%;
+}
+#content div.project div.result {
+    background: #e4e8f0 url(/images/content-blue-bg.jpg) 0 0 repeat-x;
+    border-top: 1px solid #e0e0e0;
+    padding: 20px;
+    overflow: hidden;
+}
+#content div.project div.result div.task {
+    margin-bottom: 20px;
+}
+#content div.project div.result div.services {
+    width: 65%;
+    float: left;
+}
+#content div.project div.result div.services ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-top: 6px;
+}
+#content div.project div.result div.services ul em {
+    font-weight: bold;
+    font-style: normal;
+    white-space: nowrap;
+}
+#content div.project div.result div.services li {
+    margin-left: 20px;
+}
+#content div.project div.result div.services div.group {
+}
+#content div.project div.result div.services div.group div.group-properties {
+    overflow: hidden;
+    background: #e4e8f0 url(/images/content-blue-bg.jpg) 0 0 repeat-x;
+    border-top: 1px solid #fff;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+}
+#content div.project div.result div.services div.group div.group-properties:hover {
+    background: #faf0d9 url(/images/content-yellow-bg.jpg) 0 0 repeat-x;
+}
+#content div.project div.result div.services div.group-name {
+    float: left;
+    padding: 9px 10px;
+    font-size: 14px;
+}
+#content div.project div.result div.services div.group-name:before {
+    content: '►';
+    font-size: 10px;
+    color: #1c4488;
+    padding-right: 5px;
+}
+#content div.project div.result div.services div.group.active div.group-name:before {
+    content: '▼';
+    font-size: 10px;
+    color: #1c4488;
+    padding-right: 5px;
+}
+#content div.project div.result div.services div.group-name span {
+    color: #1c4488;
+    border-bottom: 1px dotted #1c4488;
+}
+#content div.project div.result div.services div.group-price {
+    float: right;
+    padding: 9px 10px;
+    color: #1c4488;
+    font-size: 14px;
+}
+#content div.project div.result div.services div.group table {
+    display: none;
+}
+#content div.project div.result div.services div.group.active table {
+    display: table;
+}
+#content div.project div.result div.services table {
+    width: 100%;
+    background: #fff;
+}
+#content div.project div.result div.services table th {
+    padding: 10px 10px 5px 10px;
+    border: 1px solid #e0e0e0;
+    color: #827d73;
+    font-weight: bold;
+}
+#content div.project div.result div.services table td {
+    padding: 5px 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 11px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+#content div.project div.result div.services table td.unit {
+    color: #999;
+    white-space: nowrap;
+    text-align: center;
+}
+#content div.project div.result div.services table tr:hover td {
+    background: #faf0d9 url(/images/content-yellow-bg.jpg) 0 0 repeat-x;
+}
+#content div.project div.result div.price {
+    width: 30%;
+    float: right;
+}
+#content div.project div.result div.price div.prefix {
+    color: #1c4488;
+    line-height: 16px;
+}
+#content div.project div.result div.price div.value {
+    color: #1c4488;
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+#content div.project div.result div.price div.postfix {
+    color: #1c4488;
+    line-height: 16px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+#content div.project div.result div.price div.note {
+    font-size: 11px;
+    line-height: 15px;
+    color: #827d73;
+    margin-top: 15px;
+}
+
+
+
+#content div.text {
+    margin-top: 25px;
+    border-top: 1px solid #e0e0e0;
+    color: #827d73;
+}
+#content div.text h2 {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 13px;
+
+}
+#content div.text p {
+    margin-top: 15px;
+}
+#content div.text ul {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 20px;
+}
+#content div.text a {
+    color: #827d73;
+}
+
+#content div.info {
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 25px;
+    overflow: hidden;
+}
+#content div.info h2 {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: -12px;
+}
+#content div.info h3 {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: -12px;
+}
+#content div.info p, #content div.info ul {
+    margin-top: 20px;
+}
+#content div.info ul, #content div.info ol {
+    list-style-position: outside;
+    list-style-type: disc;
+}
+#content div.info ul li, #content div.info ol li {
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+
+#content div.info table.faq-ancors {
+    font-size: 11px;
+    margin: 10px 0 0 0;
+    background: url("/images/content-blue-bg.jpg") repeat-x scroll 0px 0px rgb(228, 232, 240);
+    border: 1px solid;
+    border-color: rgb(224, 224, 224) rgb(224, 224, 224);
+}
+#content div.info table.faq-ancors a {
+    text-decoration: none;
+}
+#content div.info .faq-list-button {
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 1px dotted rgb(28, 68, 136);
+}
+#content div.info .faq-list-button:hover {
+    border-bottom-color: #dc9e2c;
+}
+
+#content div.info table.faq-ancors ol {
+    list-style: decimal;
+    margin: 0 20px 10px 30px;
+}
+
+#content div.info table.faq-ancors ol li {
+    margin-top: 10px;
+    line-height: 15px;
+}
+#content div.info div.vacancies div.links ul li {
+    cursor: pointer;
+    text-decoration: underline;
+    list-style-type: none;
+    background: url(/images/expand.gif) no-repeat left;
+    padding-left: 22px;
+    margin: 0 0 0 1px;
+}
+#content div.info div.vacancies div.links ul li.active {
+    text-decoration: none;
+    font-weight: bold
+}
+#content div.info div.vacancies div.links {
+    padding-bottom: 20px;
+}
+#content div.info div.vacancies div.vacancy {
+    padding: 0 15px 20px 15px;
+    border: 1px solid #ccc;
+}
+
+#content ol.notes {
+    padding-top: 20px;
+    color: #827d73;
+    list-style-type: decimal;
+    list-style-position: outside;
+    line-height: 16px;
+}
+#content ol.notes li {
+    margin-left: 25px;
+    margin-top: 2px;
+}
+#content ol.notes a {
+    color: #827d73;
+}
+#content ol.notes span.min {
+    border-bottom: 1px dotted #827d73;
+    cursor: help;
+}
+
+#content div.steps {
+    margin-top: 25px;
+    border-top: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+#content div.steps div.title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+#content div.steps img {
+    float: right;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#content div.steps ol {
+    padding-top: 8px;
+    list-style-type: decimal;
+    list-style-position: outside;
+    line-height: 16px;
+}
+#content div.steps ol li {
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+
+
+#content ul.path {
+    overflow: hidden;
+}
+#content ul.path li {
+    float: left;
+    font-size: 11px;
+}
+#content ul.path li:after {
+    content: '/';
+    padding: 0 5px;
+    color: #999;
+}
+
+#content form.order input.text, #content form.order textarea {
+    background: #fff;
+    border: 3px solid #dc9e2c;
+    padding: 2px 0;
+    margin-top: 20px;
+    font-size: 14px;
+    display: block;
+}
+#content form.order input.text {
+    width: 50%;
+}
+#content form.order textarea {
+    height: 160px;
+    width: 98%;
+}
+#content form.order input.submit {
+    padding: 4px 18px 5px 18px;
+    color: #fff;
+    background: #1c4488 url(/images/order-bg.jpg) 0 0 repeat-x;
+    border: 1px solid #1c4488;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#content div.incident {
+    border-top: 1px solid #ddd;
+    margin: 25px 0 0 0;
+    padding: 15px 0 0 0;
+    color: #827D73;
+}
+#content div.incident .icon {
+    float: left;
+    width: 60px;
+}
+#content div.incident .icon img {
+    margin-top: 3px;
+    margin-left: 1px;
+}
+#content div.incident .descr strong {
+    color: #DC9E2C
+}
+.nomargintop {
+    margin-top: 0 !important;
+}
+
+/* repair history */
+.modal {
+    display: none;
+}
+.history_cont {
+    width: 500px;
+    padding: 10px;
+}
+.history_cont div.title {
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #DC9E2C;
+    padding-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.history_cont p {
+    margin-bottom: 20px;
+}
+.history-link {
+    position: relative;
+    float: right;
+    margin-top: -55px
+}
+.history-link a {
+    white-space: nowrap;
+    line-height: 45px;
+    font-size: 12px;
+    padding-left: 45px;
+    width: 108px;
+    height: 45px;
+    display: block;
+    background: url(/images/repair_history/icon.png) left center no-repeat;
+}
+fieldset.curiosity {
+    margin: 20px 0 0 0;
+    border: 1px solid #DC9E2C;
+    padding: 10px 20px 20px 20px;
+    border-radius: 10px;
+}
+fieldset.curiosity legend {
+    padding: 0 10px;
+}
+.otvety {
+    background: url(/images/sidebar-line-2-bg.png) 50% 0 no-repeat;
+    padding: 15px 10px 15px 17px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 16px;
+}
+.otvety a {
+    display: block;
+    height: 51px;
+    padding: 20px 0 0 74px;
+    background: url(/images/otvety.png) no-repeat 0 50%
+}
+
+.pictures_subscript {
+    white-space:nowrap;
+    text-align: center;
+}
+#content div.subtabs {
+    margin-top: 20px;
+}
+#content div.subtabs table {
+    margin-top:20px;
+    width: 100%;
+}
+
+
+#content div.subtabs table th {
+    background: #e4e8f0 url(/images/content-blue-bg.jpg) 0 0 repeat-x;
+    font-size: 14px;
+    white-space: nowrap;
+    text-shadow: 1px 1px #fff;
+    border-right: 1px solid #e0e0e0;
+}
+#content div.subtabs table th, #content div.subtabs table td {
+    padding: 9px 10px;
+    border: 1px solid #e0e0e0;
+}
+#content div.subtabs table td {
+    line-height: 16px;
+    vertical-align: middle;
+}
+#content div.subtabs table tr:hover td {
+    background: #faf0d9 url(/images/content-yellow-bg.jpg) 0 0 repeat-x;
+}
+#content div.subtabs table td.photo span {
+    display: block;
+    font-size: 11px;
+    text-align: center;
+}
+
+#content div.subtabs th.name {
+    width: 10%;
+}
+#content div.subtabs th.dscription {
+    width: 70%;
+}
+#content div.subtabs td.img {
+    text-align: center;
+}
+div.subtabs div.sub-tabs-links {
+    margin-top: 5px;
+}
+div.subtabs div.sub-tabs-links ul {
+    overflow: hidden;
+}
+div.subtabs div.sub-tabs-links ul li {
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 30px;
+    color: #1c4488;
+    border-bottom:1px dotted #1c4488;
+    cursor: pointer;
+}
+div.subtabs div.sub-tabs-links ul li:hover {
+    color: #dc9e2c;
+
+}
+div.subtabs div.sub-tabs-links ul li.active {
+    color: #000;
+    border-bottom: 0;
+    cursor: default;
+}
+div.subtabs div.sub-tabs-links ul li:last-child {
+    margin-right: 0;
+}
+
+div.subtabs div.sub-tabs-content-item {
+    display: none;
+}
+div.subtabs div.sub-tabs-content-item.active {
+    display: block;
+}
+
+.image_description{
+    position: absolute;
+    top: -50px;
+    background-color:#063;
+    left: 0;
+    margin: 0;
+    font-size: 1.1em;
+    color: #ddd;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.pricelist div.pric table td{
+    padding: 9px 10px !important;
+}
+.pricelist div.pric table td.price{
+    text-align:center;
+}
+
+table.additional_services tr td{
+    text-align:center;
+}
+table.additional_services{
+    margin-top:15px !important;
+    border:none !important;
+}
+
+table.additional_services tr.additional_services td img{
+    border-radius: 10px;
+    width: 95%;
+}
+
+div.add_services{
+    margin-top:20px !important;
+    background-color:#FFF !important;
+
+
+}
+
+div.add_services div.notes{
+    margin-left:20px;
+}
+
+#content_mod{
+    width: 100%;
+    overflow-y: hidden;
+}
+
+#content div.subtabs div.sub-tabs-content-portfolio  table {
+    width: 100%!important;
+}
+
+#content div.subtabs div.sub-tabs-content-portfolio  table th {
+    background: none;
+    text-shadow: none;
+    border-right: none;
+}
+#content div.subtabs div.portfolio_vertical  table th, #content div.subtabs div.sub-tabs-content-portfolio  table td {
+    padding: 15;
+    border: none;
+}
+#content div.subtabs div.sub-tabs-content-portfolio  table td {
+    line-height: none;
+    vertical-align: auto;
+    text-align:center;
+}
+#content div.subtabs  div.sub-tabs-content-portfolio  table tr:hover td {
+    background: none;
+}
+
+#content div.sub-tabs-content-portfolio img {
+    width: 100%!important;
+    border-radius: 12px;
+    vertical-align: bottom;
+}
+
+
+.ceiling-types {
+    margin: 30px 0;
+    height: 138px;
+}
+.ceiling-types li a {
+    display: block;
+    padding-top: 120px;
+    font-size: 1,2 em;
+    text-align: center
+}
+.ceiling-types li {
+    display: block;
+    float: left;
+    width: 141px;
+    margin-right: 0px;
+}
+.ceiling-types li.gypsum {
+    background: url(/images/ceiling-types.jpg) no-repeat left top;
+}
+.ceiling-types li.armstrong {
+    background: url(/images/ceiling-types.jpg) no-repeat -141px top;
+}
+.ceiling-types li.rack {
+    background: url(/images/ceiling-types.jpg) no-repeat -282px top;
+}
+.ceiling-types li.cassette {
+    background: url(/images/ceiling-types.jpg) no-repeat -423px top;
+}
+.ceiling-types li.grilyato {
+    background: url(/images/ceiling-types.jpg) no-repeat -564px top;
+}
+
+
+#content div.compare table {
+    width: 100%;
+    border-right: 1px solid #e0e0e0;
+}
+#content div.compare table th, #content div.compare table td {
+    padding: 9px 10px;
+    border: 1px solid #e0e0e0;
+}
+#content div.compare table th {
+    background: #e4e8f0 url(/images/content-blue-bg.jpg) 0 0 repeat-x;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 12px;
+    white-space: nowrap;
+    text-shadow: 1px 1px #fff;
+    border-right: 1px solid #e0e0e0;
+}
+#content div.compare table td {
+    line-height: 16px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+#content div.compare table tr:hover td {
+    background: #faf0d9 url(/images/content-yellow-bg.jpg) 0 0 repeat-x;
+}
+
+
+#content .tabs div.scheme {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: 20px;
+    background: url(/images/scheme-man.jpg) 30px 50% no-repeat;
+    padding: 20px 0 25px 210px;
+}
+#content .tabs div.scheme ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+    line-height: 16px;
+}
+#content .tabs div.scheme ol li {
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+
+
+.entry-content {
+    border: 1px solid #E1D9CA;
+    margin: 15px 0 0 0;
+    padding: 20px 20px 30px 20px;
+    border-radius: 12px;
+    background: #FBFAF7;
+}
+
+.comment-body{
+    margin: 0 20px 0 60px;
+    border: 1px solid #ddd;
+    position: relative;
+    top: -20px;
+    background: #FFFCF2;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #F3DDB6;
+}
+
+.add_post {
+    background: #F5F2ED;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #E1D9CA;
+    margin-top: 15px;
+}
+
+.single .add_post a {
+    margin-top: 0;
+}
+.add_post a {
+    display: inline-block;
+    padding: 2px 14px 3px 14px;
+    color: white;
+    background: #DC9E2C;
+    border: 1px solid #DC9E2C;
+    border-radius: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-previous, .nav-next {
+    margin: 10px 0 0 0;
+    border-radius: 8px;
+    float: left;
+    background: #1C4488;
+}
+
+.nav-previous a, .nav-next a {
+    display: block;
+    padding: 0 12px 2px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-next {
+    float: right;
+}
+
+.nav-previous a, .nav-next a {
+    display: block;
+    padding: 0 12px 2px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-previous span, .nav-next span {
+    margin: 0 2px 0 0;
+    bottom: -1px;
+    position: relative;
+    font-size: 1.7em;
+    line-height: normal;
+}
+
+.nav-previous span, .nav-next span {
+    margin: 0 2px 0 0;
+    bottom: -1px;
+    position: relative;
+    font-size: 1.7em;
+    line-height: normal;
+}
+
+
+.entry-meta {
+    color: #666;
+    margin: 5px 0;
+    font-size: .85em;
+}
+
+.commentlist {
+    list-style: none;
+}
+
+
+ .stip-box input,  .stip-box select {
+    width: 40%;
+    background: white;
+    border: 3px solid #DC9E2C;
+    padding: 2px 0;
+    font-size: 14px;
+    display: block;
+}
+
+
+ .stip-box textarea, #comment {
+    width: 99%;
+    height: 150px;
+    background: white;
+    border: 3px solid #DC9E2C;
+    padding: 2px 0;
+    font-size: 14px;
+    display: block;
+}
+
+ .stip-box h2 {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.stip-box  small {
+    display: block;
+    color: #777;
+    font-size: 1em;
+    margin: 5px 0 5px 0;
+}
+
+.stip-box .submit, #submit {
+    padding: 4px 18px 5px 18px;
+    color: white;
+    background: #1C4488 url(/images/order-bg.jpg) 0 0 repeat-x;
+    border: 1px solid #1C4488;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: auto;
+}

@@ -1,0 +1,87 @@
+<div id="leftColumn" class="sidebar">
+
+
+    <div class="block">
+        <div class="pages">
+
+        <check if="isset({{ @menu['left_1'] }})">
+            <h3>{{ @menu['left_1'][0]['name'] }}</h3>
+
+            <ul>
+                <repeat group="{{ @menu['left_1'] }}" value="{{ @item }}">
+                    <check if="{{ @item.class=='active' }}">
+                        <true>
+                            <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                        </true>
+                        <false>
+                            <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                        </false>
+                    </check>
+                </repeat>
+            </ul>
+        </check>
+
+        <check if="isset({{ @menu['left_2'] }})">
+            <h3>{{ @menu['left_2'][0]['name'] }}</h3>
+
+            <ul>
+                <repeat group="{{ @menu['left_2'] }}" value="{{ @item }}">
+                    <check if="{{ @item.class=='active' }}">
+                        <true>
+                            <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                        </true>
+                        <false>
+                            <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                        </false>
+                    </check>
+                </repeat>
+            </ul>
+        </check>
+
+        <check if="isset({{ @menu['left_3'] }})">
+            <h3>{{ @menu['left_3'][0]['name'] }}</h3>
+
+            <ul>
+                <repeat group="{{ @menu['left_3'] }}" value="{{ @item }}">
+                    <check if="{{ @item.class=='active' }}">
+                        <true>
+                            <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                        </true>
+                        <false>
+                            <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                        </false>
+                    </check>
+                </repeat>
+            </ul>
+        </check>
+
+        <check if="isset({{ @menu['left_4'] }})">
+            <h3>{{ @menu['left_4'][0]['name'] }}</h3>
+
+            <ul>
+                <repeat group="{{ @menu['left_4'] }}" value="{{ @item }}">
+                    <check if="{{ @item.class=='active' }}">
+                        <true>
+                            <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                        </true>
+                        <false>
+                            <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                        </false>
+                    </check>
+                </repeat>
+            </ul>
+        </check>
+
+        <div class="button"><a href="/ourworks.html">Наше портфолио</a></div>
+
+        </div>
+    </div>
+
+
+    <repeat group="{{ @module }}" value="{{ @item }}">
+        <check if="{{ @item.position == 'left_bottom' }}">
+            {{ @item.html|raw }}
+        </check>
+    </repeat>
+
+</div>

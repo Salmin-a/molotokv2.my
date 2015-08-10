@@ -1,0 +1,15 @@
+<div id="middleColumn">
+    <div id="content">
+        <div class="path">
+            <ul>
+                <repeat group="{{ @breadcrumbs }}" value="{{ @item }}">
+                    <li>
+                        <a href="{{ trim(@item.url) }} "> {{ trim(@item.name) }} </a>
+                    </li>
+                </repeat>
+            </ul>
+        </div>
+
+        {{ @content.html | raw}}
+    </div>
+</div>

@@ -1,0 +1,241 @@
+div.texture {
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	margin-top: 20px;
+	padding: 5px 0 20px 0;
+}
+div.texture .expand{
+	margin: 0 0 0 10px;
+	border-bottom: 1px dotted #1C4488;
+	color: #1C4488;
+	cursor: pointer;
+	font-size: 11px
+}
+div.texture .expand:hover {
+	color: #DC9E2C;
+	border-bottom: 1px dotted #DC9E2C;
+}
+div.tabs-links ul li {
+	font-size: 16px !important;
+	margin-right: 17px !important;
+}
+div.texture_cat {
+	width: 100%;
+	max-height: 70px;
+	overflow-y: hidden
+}
+div.texture p {
+	margin: 25px 0 7px 0
+}
+div.texture p:first-child {
+	margin: 10px 0 10px 0
+}
+
+
+div.texture_cat a {
+	display: block;
+}
+div.texture_cat .texture_item {
+	float: left;
+	margin: 0 4px 4px 0
+}
+div.texture_cat .texture_item img {
+	border-radius: 5px;
+	vertical-align: bottom;
+	margin: 0 0 1px 0
+}
+div.texture_cat .label {
+	margin: 0 0 10px 0;
+	display: block;
+	font-size: 11px;
+	color: #888;
+	text-align: center
+}
+#content div.calculator {
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 1px solid #e0e0e0;
+}
+#content div.calculator form {
+	margin-top: 15px;
+}
+#content div.calculator table {
+	width: 100%;
+}
+#content div.calculator table td {
+	padding: 5px 10px;
+	border: 1px solid #e0e0e0;
+	line-height: 14px;
+	font-size: 11px;
+	vertical-align: middle;
+}
+#content div.calculator table tr.required td {
+	background: #e4e8f0 url(/images/content-blue-bg.jpg) 0 0 repeat-x;
+	font-size: 14px;
+	text-shadow: 1px 1px #fff;
+	padding: 9px 10px;
+}
+#content div.calculator table span.tip {
+	font-size: 11px;
+	line-height: 11px;
+	font-weight: normal;
+	border: 1px solid #476495;
+	color: #1c4488;
+	border-radius: 10px;
+	padding: 0 4px;
+	position: relative;
+	left: 3px;
+	top: -2px;
+	cursor: help;
+}
+#content div.calculator table input, #content div.calculator table select {
+	font-size: 11px;
+	line-height: 14px;
+}
+#content div.calculator table tr.required td input, #content div.calculator table tr.required td select {
+	font-size: 14px;
+}
+#content div.calculator table tr:hover td {
+	background: #faf0d9 url(/images/content-yellow-bg.jpg) 0 0 repeat-x;
+}
+#content div.calculator table tr.total td {
+	background: #0f336d url(/images/order-bg.jpg) 0 0 repeat-x;
+	font-size: 14px;
+	padding-top: 12px;
+	padding-bottom: 9px;
+	color: #fff;
+	border: 1px solid #1c4488;
+	text-align: center;
+}
+
+#content div.calculator table tr.total td small {
+	font-size: 11px;
+	display: block;
+	margin-top: 2px;
+	color: #b9cdec;
+}
+#content div.calculator table tr.total td span.big-text {
+	font-size: 1.6em;
+}
+#content div.calculator table tr.total td span.big-text s {
+	margin-right: 10px;
+	text-decoration: none;
+}
+#content div.calculator table tr.total td span.big-text s span {
+	position: absolute;
+	border-top: 2px solid red;
+	width: 10px;
+	margin-top: .25em;
+}
+#content div.calculator table tr.total:hover td {
+	background: #0f336d url(/images/order-bg.jpg) 0 0 repeat-x;
+}
+#content div.calculator input {
+	border: 1px solid #c5c2be;
+	width: 98%;
+	line-height: 20px;
+	background: #fff;
+}
+#content div.calculator span.toggle-link {
+	color: #1c4488;
+	border-bottom: 1px dotted #1c4488;
+	cursor: pointer;
+}
+#content div.calculator tr.toggle-content {
+	display: none;
+}
+#content ul.relative {
+	margin-top: 22px;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 20px;
+	list-style-type: square;
+	list-style-position: outside;
+	color: #DC9E2C;
+	font-size: 14px;
+}
+#content ul.relative li {
+	margin-left: 25px;
+	margin-top: 3px;
+}
+
+#content div.work table.work{	
+	margin-top:50px;	
+}
+#content div.work table tr {	
+	margin-top: 200px;
+}
+
+#content div.work table tr.row_of_work td.description {	
+	font-size: 14px;	
+	line-height:19px;
+	padding-left: 20px;
+	padding-bottom: 9px;
+}
+#content div.work table td div.workprice {
+	margin-left: 10px;
+	display:inline;	
+	font-size: 28px;	
+	font-style:italic;
+}
+#content div.work table td img{
+	width:220px;
+	height:180px;	
+	
+}
+#content div.work table td div.armstrong_key{
+	margin-top:11px;
+	padding:4px 30px 4px 6px;
+	background-color:#FEBA33;	
+	margin-left: 30px;
+}
+
+
+div.texture_horizontal {
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	margin-top: 20px;
+	padding: 5px 0 20px 0;
+}
+div.texture_horizontal .expand {
+	margin: 0 0 0 10px;
+	border-bottom: 1px dotted #1C4488;
+	color: #1C4488;
+	cursor: pointer;
+	font-size: 11px
+}
+div.texture_horizontal .expand:hover{
+	color: #DC9E2C;
+	border-bottom: 1px dotted #DC9E2C;
+}
+
+div.texture_horizontal p {
+	margin: 25px 0 7px 0
+}
+div.texture_horizontal p:first-child {
+	margin: 10px 0 10px 0
+}
+
+div.texture_vertical {
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	margin-top: 20px;
+	padding: 5px 0 20px 0;
+}
+div.texture_vertical .expand {
+	margin: 0 0 0 10px;
+	border-bottom: 1px dotted #1C4488;
+	color: #1C4488;
+	cursor: pointer;
+	font-size: 11px
+}
+div.texture_vertical .expand:hover{
+	color: #DC9E2C;
+	border-bottom: 1px dotted #DC9E2C;
+}
+
+div.texture_vertical p {
+	margin: 25px 0 7px 0
+}
+div.texture_vertical p:first-child {
+	margin: 10px 0 10px 0
+}

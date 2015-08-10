@@ -1,0 +1,309 @@
+<div id="services">
+    <div class="viewport">
+        <div class="primary">
+            <div class="category">
+                <div class="name"><a href="/">Ремонт &laquo;под ключ&raquo;</a></div>
+                <div class="services">
+
+                    <check if="isset({{ @menu['top_1_1'] }})">
+                    <h4>Объекты</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_1_1'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+
+                    <check if="isset({{ @menu['top_1_2'] }})">
+                    <h4>Помещения</h4>
+                    <ul>
+                        <repeat group="{{ @menu['top_1_2'] }}" value="{{ @item }}">
+                            <check if="{{ @item.class=='active' }}">
+                                <true>
+                                    <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                </true>
+                                <false>
+                                    <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                </false>
+                            </check>
+                        </repeat>
+                    </ul>
+                    </check>
+
+                    <check if="isset({{ @menu['top_1_3'] }})">
+                        <h4>Вид работ</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_1_3'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+                </div>
+            </div>
+            <div class="category">
+                <div class="name"><a href="/uslugi/potolok.html">Потолок</a></div>
+                <div class="services">
+
+                    <check if="isset({{ @menu['top_2_1'] }})">
+                        <h4>Монтаж</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_2_1'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+
+                    <check if="isset({{ @menu['top_2_2'] }})">
+                        <h4>Ремонт</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_2_2'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+
+                </div>
+            </div>
+            <div class="category">
+                <div class="name"><a href="/uslugi/pol.html">Пол</a></div>
+                <div class="services">
+
+                    <check if="isset({{ @menu['top_3_1'] }})">
+                        <h4>Укладка</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_3_1'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+
+                    <check if="isset({{ @menu['top_3_2'] }})">
+                        <h4>Устройство</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_3_2'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+
+                    <check if="isset({{ @menu['top_3_3'] }})">
+                        <h4>Ремонт</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_3_3'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+                    <ul class="projects">
+                        <li><a href="/uslugi/pol.html">Пол &laquo;под ключ&raquo;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category">
+                <div class="name"><a href="/uslugi/stena.html">Стены</a></div>
+                <div class="services">
+
+                    <check if="isset({{ @menu['top_4_1'] }})">
+                        <h4>Монтаж</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_4_1'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+
+                    <check if="isset({{ @menu['top_4_2'] }})">
+                        <h4>Ремонт</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_4_2'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+                    <check if="isset({{ @menu['top_4_3'] }})">
+                        <ul class="projects">
+                            <repeat group="{{ @menu['top_4_3'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+                </div>
+            </div>
+            <div class="category">
+                <div class="name"><a href="/uslugi/elektrika.html">Электрика</a></div>
+                <div class="services">
+                    <check if="isset({{ @menu['top_5_1'] }})">
+                        <ul>
+                            <repeat group="{{ @menu['top_5_1'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+                    <check if="isset({{ @menu['top_5_2'] }})">
+                        <ul class="projects">
+                            <repeat group="{{ @menu['top_5_2'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+                </div>
+            </div>
+            <div class="category">
+                <div class="name"><a href="/uslugi/santehnika.html">Сантехника</a></div>
+                <div class="services">
+                    <check if="isset({{ @menu['top_6_1'] }})">
+                        <h4>Установка</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_6_1'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+
+                    <check if="isset({{ @menu['top_6_2'] }})">
+                        <h4>Ремонт</h4>
+                        <ul>
+                            <repeat group="{{ @menu['top_6_2'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+
+                    <check if="isset({{ @menu['top_6_3'] }})">
+                        <ul class="projects">
+                            <repeat group="{{ @menu['top_6_3'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+                </div>
+            </div>
+        </div>
+        <div class="secondary">
+            <div class="category">
+                <div class="name"><a href="/">Остальные услуги</a></div>
+                <div class="services">
+                    <check if="isset({{ @menu['top_7_1'] }})">
+                        <ul>
+                            <repeat group="{{ @menu['top_7_1'] }}" value="{{ @item }}">
+                                <check if="{{ @item.class=='active' }}">
+                                    <true>
+                                        <li class="{{ @item.class }}">{{ @item.ankor }}</li>
+                                    </true>
+                                    <false>
+                                        <li class="{{ @item.class }}">  <a href="{{ @item.url }}">{{ @item.ankor }}</a></li>
+                                    </false>
+                                </check>
+                            </repeat>
+                        </ul>
+                    </check>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

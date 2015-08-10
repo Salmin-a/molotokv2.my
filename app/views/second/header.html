@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+    <meta name="viewport" content="width=1220" />
+    <title>{{ @content.title | raw}}</title>
+    <meta name="description" content="{{ @content.description | raw}}">
+    <meta name="lestinet-site-verification" content="HlrCGO9PBsy6POQaAHsgrd5630" />
+    <link href="/v2/styles/reset.css" rel="stylesheet" />
+    <link href="/v2/styles/global.css" rel="stylesheet" />
+    <link href="/v2/styles/compilation.css" rel="stylesheet" />
+
+    <link href="/v2/nyromodal/styles/nyroModal.css" rel="stylesheet" type="text/css" />
+    <script src="/v2/scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="/v2/nyromodal/js/jquery.nyroModal.custom.min.js" type="text/javascript"></script>
+    <!--[if IE 6]><script src="/v2/nyromodal/js/jquery.nyroModal-ie6.min.js" type="text/javascript"></script><![endif]-->
+    <script src="/v2/scripts/global.js" type="text/javascript"></script>
+    <script src="/scripts/service.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-21190109-9']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        function ct_load_script() {
+            var ct = document.createElement('script'); ct.type = 'text/javascript';
+            ct.src = 'http://cc.calltracking.ru/phone.e32ef.392.async.js?nc='+Math.floor(new Date().getTime()/300000);
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ct, s);
+        }
+        if ( null != window.onload ) { wol = window.onload; window.onload = function() { wol(); ct_load_script(); }
+        } else { window.onload = ct_load_script; }
+    </script>
+    <script type="text/javascript" src="/scripts/gallery/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="/scripts/gallery/gallery.js"></script>
+    <link rel="stylesheet" href="/scripts/gallery/jquery.fancybox.css">
+    <script>
+        $(document).ready(function(){
+            var loc = window.location.hash.replace("#","");
+            var defaultActive = $('div.tabs-links ul li.active').attr('content');
+
+            $('div.tabs-links li').removeClass('active');
+            $('#content div.tabs-content-item').removeClass('active');
+
+            if (loc == "") {loc = defaultActive};
+
+            $('div.tabs-links ul li').each(function(i) {
+                var text = $(this).html();
+                var content = $(this).attr('content');
+                if (loc == content) {
+                    $(this).addClass('active');
+                    $('#content div.' + content).addClass('active');
+                    if(content == 'project') {
+                        var project = $('#content div.project').attr('project');
+                        $('#content div.project').load('/ajax/projects.php', {
+                            'project' : project,
+                        });
+                    }
+                }
+                $(this).html('<a href="#'+content+'">'+text+'</a>')
+            });
+        });
+    </script>
+
+    <link href="/styles/ceiling.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="header">
+    <div class="viewport">
+        <div class="logotype">
+            <a href="/"><img src="/v2/images/layout/logotype.png" width="354" height="74" alt="" /></a>
+        </div>
+        <div class="about">
+            <ul>
+                <li><a href="/content/o-kompanii.html">О компании</a></li>
+                <li><a href="/content/sotrudnichestvo.html">Сотрудничество</a></li>
+                <li><a href="/content/preimushestva.html">Преимущества</a></li>
+                <li><a href="/content/vakansii.html">Вакансии</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <div class="phone"><strong>+7 (495) 729-53-30</strong></div>
+            <div class="schedule" style="color: #ea3743; font-weight: bold;">звоните, мы работаем без выходных!</div>
+            <div class="button"><a href="/content/zvonok.html">Обратный звонок</a></div>
+        </div>
+        <div class="feedback">
+            <ul>
+                <li class="testimonials"><span class="icon"></span><a href="/otzyvy/">Отзывы и рекомендации</a></li>
+                <li><a href="/otvety/mastera">Задать вопрос мастеру</a></li>
+                <li><a href="/content/zakaz.html">Сделать онлайн заказ</a></li>
+                <li><a href="/content/kontakti.html">Контактная информация</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+

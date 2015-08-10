@@ -1,0 +1,724 @@
+.promo_col{
+    height: 430px;
+}
+
+.left_col {
+    width: 47%;
+    float: left;
+}
+
+.promo_text{
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.promo_text h1{
+    color: #1c4488;
+    font-size: 50px;
+    line-height: 46px;
+    background: none;
+}
+
+.promo_text ul {
+    font-size: 16px;
+    line-height: 25px;
+    list-style-image: url(img/li.png);
+}
+
+.promo_text ul li{
+    margin-left: 25px;
+    padding-left: 14px;
+}
+
+.right_col {
+   width: 53%;
+   display: inline-block;
+   height: 400px;
+}
+
+.red_circle {
+    width: 302px;
+    height: 302px;
+    background: url("img/red_circle.png");
+    position: relative;
+    left: 280px;
+    top: 75px;
+}
+
+.red_circle .price {
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    width: 100%;
+}
+
+.red_circle .description{
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    top: 138px;
+    width: 100%;
+}
+
+  .pan {
+      width: 329px;
+      height: 473px;
+      background: url("img/pan.png");
+      position: relative;
+      top: -250px;
+      left: -15px;
+      z-index: 1;
+  }
+
+
+@font-face {
+    font-family: Days; /* Гарнитура шрифта */
+    src: local(days), url(fonts/Days.otf); /* Для остальных браузеров */
+}
+
+.footer_promo{
+    width: 100%;
+    height: 135px;
+    background: url("img/footer_promo_bg.jpg") repeat;
+}
+
+.footer_promo .make_order{
+    width: 65%;
+    display: inline-block;
+    margin-top: 43px;
+    margin-left: 40px;
+}
+.footer_promo .make_order span{
+    line-height: 50px;
+    font-size: 16px;
+
+}
+.order_button{
+    display: block;
+    float: left;
+    padding: 4px 18px 5px 18px;
+    color: #fff;
+    border: 1px solid #1c4488;
+    border-radius: 4px;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 65px;
+    width: 200px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+
+    background: #365a96; /* Old browsers */
+    background: -moz-linear-gradient(top,  #365a96 0%, #1c407e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#365a96), color-stop(100%,#1c407e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #365a96 0%,#1c407e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #365a96 0%,#1c407e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #365a96 0%,#1c407e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #365a96 0%,#1c407e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#365a96', endColorstr='#1c407e',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.footer_promo .guarantee{
+    width: 30%;
+    display: inline;
+    position: absolute;
+    float: right;
+    background: url("img/footer_promo_bg_guarantee.png") repeat;
+    margin-top: 6px;
+    margin-right: 5px;
+    height: 122px;
+    top: 0;
+    right: 0;
+
+}
+
+.footer_promo .guarantee span{
+    font-family: Days, arial, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    display: inline-block;
+    margin-left: 35px;
+    text-align: center;
+
+}
+
+.footer_promo .guarantee img {
+    float: right;
+    width: 80px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.footer_promo .footer_promo_top {
+    background: url("http://molotok-na-chas.ru/images/sidebar-line-2-bg.png") repeat-x;
+    height: 135px;
+
+}
+
+.footer_promo .footer_promo_left {
+    background: url("img/footer_promo_left.png") repeat-y;
+    height: 135px;
+
+}
+
+.footer_promo .footer_promo_right {
+    height: 135px;
+    background: url("img/footer_promo_right.png") repeat-y right;
+    position: relative;
+}
+
+.footer_promo .footer_promo_bottom {
+    background: url("http://molotok-na-chas.ru/images/sidebar-footer-bg.png") repeat-x  bottom;
+    height: 135px;
+
+}
+
+  #about_pan {
+      width: 80%;
+      padding-left: 10%;
+      padding-right: 10%;
+      overflow: hidden;
+      margin-top: 30px;
+  }
+
+#about_pan h2 {
+    color:#1c4488;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#about_pan img {
+    float: left;
+    padding-right: 140px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+
+#about_pan span {
+    font-size: 18px;
+    line-height: 26px;
+    color:#1c4488;
+}
+
+#about_pan p {
+    font-size: 14px;
+    color: #000;
+    line-height: 21px;
+
+}
+
+#about_pan ul {
+    font-size: 16px;
+    line-height: 25px;
+    list-style-image: url(img/li.png);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 495px;
+}
+
+#about_pan li {
+    margin-left: 25px;
+    padding-left: 14px;
+}
+
+
+
+
+
+  #content .offers{
+      overflow: visible;
+  }
+
+.offers h2 {
+    color:#1c4488;
+    font-size: 32px;
+    text-align: center;
+}
+.offers .item_offer {
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-top: 58px;
+    position: relative;
+    background-color: #fff;
+}
+
+.offers .item_offer .offer_border {
+    border: 1px solid #bebebe;
+    padding: 3px;
+    width: 287px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.offers .middle_offer {
+    width: 36%;
+}
+
+.item_offer:hover .offer_border {
+    border: 4px solid #d6a240;
+    border-bottom: none;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+.item_offer:hover .offer_border .item_price {
+    visibility: hidden;
+}
+
+
+.offers .item_offer .item_scroll_buy {
+    border: 4px solid #d6a240;
+    margin: 0;
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -1px;
+    left: -4px;
+    width: 100%;
+    background-color: #e9af42;
+    text-align: center;
+    border-top: none;
+    z-index: -1;
+    top: 350px;
+}
+
+.offers .item_offer .item_scroll_buy .order_button{
+    margin: 0 auto;
+    float: none;
+    margin-top: 18px;
+}
+
+.offers .item_offer .item_scroll_buy span{
+    margin-bottom: 17px;
+    margin-top: 13px;
+    display: block;
+}
+
+
+.item_offer:hover .offer_border .item_scroll_buy {
+    border: 4px solid #d6a240;
+    border-top: none;
+    left: -4px;
+    margin: 0;
+    height: 255px;
+    display: block;
+    bottom: -233px;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    z-index: 1;
+}
+
+.offers .item_offer .header_item {
+    height: 333px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #9f9f9f;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.offers .item_offer .header_item span {
+    color: #000;
+    font-size: 21px;
+    margin-top: 10px;
+    display: block;
+}
+
+.offers .item_offer .header_item img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.offers .item_offer .item_description {
+    color: #666666;
+    font-size: 13px;
+    background-color: #fff;
+    padding-bottom: 14px;
+    padding-top: 0px;
+    border-top: 1px solid #e9e9e9;
+}
+
+.offers .item_offer .item_price {
+    color: #ea5b50;
+    font-size: 14px;
+    margin-top: 30px;
+    padding-bottom: 14px;
+}
+
+.offers .item_offer .item_price2 {
+    color: #ea5b50;
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+
+.offers .item_offer .item_price  span{
+    color: #ea5b50;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.offers .item_offer .item_price2  span{
+    color: #ea5b50;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.offers .item_offer .item_description .advantages{
+    color: #1c4488;
+    font-size: 18px;
+    line-height: 60px;
+    text-decoration: none;
+    border-bottom: 1px dotted #1c4488;
+}
+
+.modal h2 {
+    font-size: 20px;
+}
+
+.modal ul {
+    font-size: 16px;
+    line-height: 28px;
+    list-style-image: url(img/li.png);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.nyroModalBg {
+    z-index: 1;
+}
+
+
+  #links {
+      border-bottom: 1px solid #e9e9e9;
+      margin-bottom: 80px;
+      padding-bottom: 50px;
+  }
+
+.item_links {
+    width: 32.5%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.item_links.borders {
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+}
+
+.item_links h3 {
+    font-size: 28px;
+    color: #1c4488;
+}
+
+
+
+.item_links p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 28px;
+}
+
+.item_links span {
+    font-size: 40px;
+    color: #ea5b50;
+    line-height: 32px;
+    margin-top: 28px;
+    display: block;
+}
+
+.item_links span.small{
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 14px;
+
+}
+
+
+
+  .make_order_bottom{
+      width: 100%;
+      display: inline-block;
+      margin-top: 70px;
+      margin-left: 40px;
+      margin-bottom: 75px;
+  }
+.make_order_bottom span{
+    line-height: 50px;
+    font-size: 16px;
+
+}
+
+.make_order_bottom .inner{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.make_order_bottom .order_button{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+
+
+  #content{
+      margin: 0 0;
+  }
+
+/* Блоки отзывов */
+
+#testimonials .block {
+    background: url(http://molotok-na-chas.ru/v2/images/layout/sidebar-borders.png) 50% 0 repeat-y;
+    padding: 0 6px 0 5px;
+
+
+
+}
+
+#testimonials .col25 {
+    width: 24%;
+    display: inline-block;
+    position: relative;
+
+}
+
+#testimonials .testimonials {
+    width: 195px;
+    margin: 0 auto;
+    border-top: 2px solid #f3deb7;
+    border-bottom: 4px solid #f3deb7;
+}
+
+#testimonials .testimonials .text {
+    background: #fff;
+    padding: 15px;
+}
+
+#testimonials .testimonials .text .rating {
+    color: #e39b15;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#testimonials .testimonials .text p {
+    margin-top: 10px;
+}
+
+#testimonials .testimonials .author {
+    background: url(http://molotok-na-chas.ru/v2/images/layout/testimonial-author-bg.png) 50% 0 no-repeat;
+    padding: 25px 15px 0 15px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#testimonials .testimonials .more {
+    padding: 2px 15px 15px 15px;
+    font-size: 11px;
+}
+
+/* Кнопки под отзывами */
+
+#testimonials .order .button a {
+    display: block;
+    border-radius: 10px;
+    background: #395d99 url(http://molotok-na-chas.ru/v2/images/layout/button-bg.png) 0 50% repeat-x;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 20px 3px 20px;
+    border: 1px solid #1c4488;
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.3);
+}
+
+/* Очистка фона */
+
+#columns {
+    background: url(img/promo_bg.jpg) no-repeat 80% 60px;
+
+    padding-top: 60px;
+    min-height: 350px;
+    z-index: 2;
+}
+
+.separate {
+    background: url("img/separate_pan.jpg") repeat-y;
+    width: 100%;
+    height: 4px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+/* Стили для маленьких разрешений */
+
+@media   (max-width: 1440px) {
+
+    .footer_promo .guarantee img {
+        width: 70px;
+        height: auto;
+    }
+
+    #columns{
+        background-position-x: 40%;
+    }
+
+}
+
+@media   (max-width: 1310px) {
+
+    .footer_promo .guarantee img {
+        width: 70px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    #columns{
+        background-position-x: 40%;
+    }
+
+}
+
+
+@media   (max-width: 1290px) {
+
+    .footer_promo .guarantee img {
+        width: 60px;
+        height: auto;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+    #columns{
+        background-position-x: 70%;
+    }
+
+}
+
+@media   (max-width: 1250px) {
+
+    .footer_promo .guarantee img {
+        width: 50px;
+        height: auto;
+    }
+
+    #columns{
+        background-position-x: 55%;
+    }
+
+    #about_pan img {
+        margin-bottom: 150px;
+    }
+
+}
+
+
+
+@media   (max-width: 1220px) {
+
+    .footer_promo .guarantee img {
+        width: 40px;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    #columns{
+        background-position-x: 50%;
+    }
+
+    #about_pan img {
+        margin-bottom: 150px;
+    }
+}
+
+
+@media   (max-width: 1185px) {
+
+    .footer_promo .guarantee img {
+        width: 40px;
+        height: auto;
+        margin-top: 35px;
+        margin-right: 5px;
+
+    }
+    .footer_promo_right .order_button{
+        margin-right: 30px;
+    }
+
+    #columns{
+        background-position-x: 40%;
+    }
+
+    #about_pan h2 {
+        font-size: 28px;
+    }
+
+    #about_pan img {
+        margin-bottom: 140px;
+    }
+
+    .red_circle .description{
+        font-size: 12px;
+    }
+
+}
+
+@media   (max-width: 1152px) {
+    .footer_promo .guarantee img {
+        width: 50px;
+        height: auto;
+        margin-top: 40px;
+        display: none;
+
+    }
+
+    #columns{
+        background-position-x: 30%;
+    }
+
+    #about_pan h2 {
+        font-size: 26px;
+    }
+
+    #about_pan img {
+        margin-bottom: 160px;
+    }
+
+    .red_circle .description{
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+    #about_pan h2 {
+        font-size: 26px;
+    }
+
+    #about_pan img {
+        margin-bottom: 160px;
+    }
+
+    .red_circle .description{
+        font-size: 12px;
+    }
+
+}

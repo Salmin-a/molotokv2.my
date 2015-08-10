@@ -1,0 +1,922 @@
+#promo_kuxni{
+    height: 430px;
+    position: relative;
+}
+
+
+#promo_kuxni h1 {
+    color: #1c4488;
+    font-size: 50px;
+    line-height: 46px;
+    background: none;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#promo_kuxni .promo_text p {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+#promo_kuxni .promo_puzzle{
+    position: relative;
+
+}
+
+#promo_kuxni .promo_puzzle img:hover {
+    opacity: 0.8;
+}
+
+#promo_kuxni .promo_puzzle .img_right {
+    display: inline-block;
+    float: right;
+    border-radius: 5px;
+
+}
+
+#promo_kuxni .promo_puzzle .img_left {
+    display: inline-block;
+    float: left;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#promo_kuxni .promo_puzzle .img_right img {
+    width: 100%;
+    position: absolute;
+}
+
+#promo_kuxni .promo_puzzle .img_left  img {
+    width: 100%;
+
+}
+
+#promo_kuxni .promo_puzzle .img_right p {
+    display: block;
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+    padding-right: 7px;
+    padding-top: 16px;
+    right: 0;
+}
+
+#promo_kuxni .promo_puzzle .img_left  p {
+    display: block;
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 7px;
+    padding-top: 16px;
+    left: 0;
+    z-index: 1;
+    top: 0;
+}
+
+
+#promo_kuxni .promo_puzzle .small {
+     width: 24.8%;
+    margin-right: 0.2%;
+    margin-bottom: 0.3%;
+    position: relative;
+
+ }
+#promo_kuxni .promo_puzzle .medium {
+    width: 49.8%;
+    margin-right: 0.2%;
+    position: relative;
+    height: 200px;
+}
+#promo_kuxni .promo_puzzle .big {
+    width: 49.8%;
+    margin-left: 0.2%;
+    position: relative;
+    height: 406px;
+}
+
+
+#promo_kuxni .red_circle{
+    background: url("img/red_circle.png") no-repeat;
+    width: 241px;
+    height: 241px;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    top: 250px;
+}
+
+#promo_kuxni .red_circle{
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 82px;
+    position: absolute;
+    top: 84px;
+}
+
+#promo_kuxni .red_circle span {
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    display: block;
+}
+
+
+.order_button{
+    display: block;
+    float: left;
+    padding: 4px 18px 5px 18px;
+    color: #fff;
+
+    border: 1px solid #1c4488;
+    border-radius: 4px;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 65px;
+    width: 200px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#365a96+0,1c407e+100 */
+    background: #365a96; /* Old browsers */
+    background: -moz-linear-gradient(top,  #365a96 0%, #1c407e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#365a96), color-stop(100%,#1c407e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #365a96 0%,#1c407e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #365a96 0%,#1c407e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #365a96 0%,#1c407e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #365a96 0%,#1c407e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#365a96', endColorstr='#1c407e',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.footer_promo .guarantee{
+    width: 30%;
+    display: inline;
+    position: relative;
+    float: right;
+    background: url("img/footer_promo_bg_guarantee.png") repeat;
+    margin-top: 6px;
+    margin-right: 5px;
+    height: 122px;
+
+}
+
+.footer_promo .guarantee span{
+    font-family: Days, arial, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    display: inline-block;
+    margin-left: 35px;
+    text-align: center;
+
+}
+
+.footer_promo .guarantee img {
+    float: right;
+    width: 116px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.footer_promo .footer_promo_top {
+    background: url("http://molotok-na-chas.ru/images/sidebar-line-2-bg.png") repeat-x;
+    height: 234px;
+
+}
+
+.footer_promo .footer_promo_left {
+    background: url("img/footer_promo_left.png") repeat-y;
+    height: 234px;
+
+}
+
+.footer_promo .footer_promo_right {
+    height: 234px;
+    background: url("img/footer_promo_right.png") repeat-y right;
+}
+
+.footer_promo .footer_promo_bottom {
+    background: url("http://molotok-na-chas.ru/images/sidebar-footer-bg.png") repeat-x  bottom;
+    height: 234px;
+
+}
+
+
+.footer_promo .footer_promo_bg{
+    background: url("img/footer_promo_bg.jpg") repeat;
+    height: 220px;
+    position: relative;
+    left: 4px;
+    top: 7px;
+    margin-right: 10px;
+}
+
+.footer_promo .footer_promo_bg span {
+    font-size: 32px;
+    line-height: 38px;
+    color: #e39b15;
+    padding-bottom: 18px;
+    padding-top: 25px;
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.footer_promo .footer_promo_bg ul {
+    list-style-image: url(img/li.png);
+    display: block;
+    text-align: left;
+    margin-left: 65px;
+}
+
+
+.footer_promo .footer_promo_bg ul li {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#promo_about {
+    width: 100%;
+    text-align: center;
+}
+
+
+.footer_promo {
+    min-width: 300px;
+    max-width: 450px;
+    display: inline-block;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 40%;
+}
+
+
+  #about_pan {
+      width: 80%;
+      padding-left: 10%;
+      padding-right: 10%;
+      overflow: hidden;
+      margin-top: 30px;
+  }
+
+#about_pan h2 {
+    color:#1c4488;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#about_pan img {
+    float: left;
+    padding-right: 140px;
+    padding-left: 0px;
+    margin-bottom: 100px;
+    margin-top: 35px;
+}
+
+#about_pan span {
+    font-size: 18px;
+    line-height: 26px;
+    color:#1c4488;
+}
+
+#about_pan p {
+    font-size: 14px;
+    color: #000;
+    line-height: 21px;
+
+}
+
+#about_pan ul {
+    font-size: 16px;
+    line-height: 25px;
+    list-style-image: url(img/li.png);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 495px;
+}
+
+#about_pan li {
+    margin-left: 25px;
+    padding-left: 14px;
+}
+
+
+
+
+
+  #content .offers{
+      overflow: visible;
+  }
+
+.offers h2 {
+    color:#1c4488;
+    font-size: 32px;
+    text-align: center;
+}
+.offers .item_offer {
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-top: 58px;
+    position: relative;
+    background-color: #fff;
+}
+
+.offers .item_offer .offer_border {
+    border: 1px solid #bebebe;
+    padding: 3px;
+    width: 287px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.offers .middle_offer {
+    width: 36%;
+}
+
+.item_offer:hover .offer_border {
+    border: 4px solid #d6a240;
+    padding: 0;
+
+
+}
+
+.offers .item_offer .item_scroll_buy {
+    border: 4px solid #d6a240;
+    margin: 0;
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -1px;
+    left: -4px;
+    width: 100%;
+    background-color: #e9af42;
+    text-align: center;
+    border-top: none;
+    z-index: -1;
+
+
+}
+
+.offers .item_offer .item_scroll_buy .order_button{
+    margin: 0 auto;
+    float: none;
+    margin-top: 18px;
+}
+
+.offers .item_offer .item_scroll_buy span{
+    margin-bottom: 17px;
+    margin-top: 13px;
+    display: block;
+}
+
+
+.item_offer:hover .offer_border .item_scroll_buy {
+    border: 4px solid #d6a240;
+    left: -4px;
+    margin: 0;
+    height: 117px;
+    display: block;
+    bottom: -127px;
+    -moz-transition:all 0.1s linear;
+    transition:all 0.1s linear;
+    -webkit-transition:all 0.1s linear;
+    z-index: 10000;
+
+
+
+}
+.offers .item_offer .header_item {
+    height: 333px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #9f9f9f;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.offers .item_offer .header_item span {
+    color: #000;
+    font-size: 21px;
+    margin-top: 10px;
+    display: block;
+}
+
+.offers .item_offer .header_item img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.offers .item_offer .item_description {
+    color: #666666;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.offers .item_offer .item_price {
+    color: #ea5b50;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.offers .item_offer .item_price  span{
+    color: #ea5b50;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+
+
+#service {
+    text-align: center;
+}
+
+.left_pos .overlay_links {
+    width: 240px;
+    height: 240px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+}
+
+.right_pos .overlay_links {
+    width: 240px;
+    height: 240px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+
+#service h2{
+    color: #1c4488;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 60px;
+}
+
+#service .item {
+    border: 1px solid #e7decf;
+    border-radius: 15px;
+    height: 232px;
+    width: 455px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+
+#service .item img {
+    position: absolute;
+
+}
+
+
+
+#service .item .cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+#service .item.left_pos {
+    margin-right: 15px;
+}
+
+#service .item.right_pos {
+    margin-left: 15px;
+}
+
+
+#service .item.left_pos img {
+    left: 0;
+}
+
+#service .item.right_pos  img{
+    right: 0;
+}
+
+#service .item.left_pos .cover{
+    background: url("img/left-border.png") no-repeat;
+    background-position: 195px 0;
+    margin-right: 15px;
+}
+
+#service .item.right_pos .cover{
+    background: url("img/right-border.png") no-repeat;
+    background-position: 20px 0;
+    margin-left: 15px;
+}
+
+
+
+
+
+#service .item .description {
+    width: 200px;
+    height: 200px;
+    margin-top: 65px;
+}
+
+#service .item.left_pos .description{float: right; text-align: left;}
+#service .item.right_pos .description{float: left; text-align: right;}
+
+
+#service .item .description .name {
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    text-align: center;
+}
+
+#service .item .description .price {
+    font-size: 32px;
+    line-height: 32px;
+    color: #ea5b50;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.readmore {
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+  #links {
+      border-bottom: 1px solid #e9e9e9;
+      margin-bottom: 80px;
+      padding-bottom: 50px;
+  }
+
+.item_links {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.item_links.borders {
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+}
+
+.item_links h3 {
+    font-size: 28px;
+    color: #1c4488;
+}
+
+
+
+.item_links p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 28px;
+}
+
+.item_links span {
+    font-size: 40px;
+    color: #ea5b50;
+    line-height: 32px;
+    margin-top: 28px;
+    display: block;
+}
+
+.item_links span.small{
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 14px;
+
+}
+
+
+
+  .make_order_bottom{
+      width: 100%;
+      display: inline-block;
+      margin-top: 50px;
+      margin-left: 40px;
+      margin-bottom: 75px;
+  }
+.make_order_bottom span{
+    line-height: 50px;
+    font-size: 16px;
+
+}
+
+.make_order_bottom .inner{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.make_order_bottom .order_button{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+
+
+  #content{
+      margin: 0 0;
+  }
+
+/* Блоки отзывов */
+
+#testimonials .block {
+    background: url(http://molotok-na-chas.ru/v2/images/layout/sidebar-borders.png) 50% 0 repeat-y;
+    padding: 0 6px 0 5px;
+
+
+
+}
+
+#testimonials .col25 {
+    width: 24%;
+    display: inline-block;
+    position: relative;
+
+}
+
+#testimonials .testimonials {
+    width: 195px;
+    margin: 0 auto;
+    border-top: 2px solid #f3deb7;
+    border-bottom: 4px solid #f3deb7;
+}
+
+#testimonials .testimonials .text {
+    background: #fff;
+    padding: 15px;
+}
+
+#testimonials .testimonials .text .rating {
+    color: #e39b15;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#testimonials .testimonials .text p {
+    margin-top: 10px;
+}
+
+#testimonials .testimonials .author {
+    background: url(http://molotok-na-chas.ru/v2/images/layout/testimonial-author-bg.png) 50% 0 no-repeat;
+    padding: 25px 15px 0 15px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#testimonials .testimonials .more {
+    padding: 2px 15px 15px 15px;
+    font-size: 11px;
+}
+
+/* Кнопки под отзывами */
+
+#testimonials .order .button a {
+    display: block;
+    border-radius: 10px;
+    background: #395d99 url(http://molotok-na-chas.ru/v2/images/layout/button-bg.png) 0 50% repeat-x;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 20px 3px 20px;
+    border: 1px solid #1c4488;
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.3);
+}
+
+/* Очистка фона */
+
+#columns {
+
+
+    padding-top: 60px;
+    min-height: 350px;
+    z-index: 2;
+}
+
+.separate {
+    background: url("img/separate_pan.jpg") repeat-y;
+    width: 100%;
+    height: 4px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+
+  
+
+/* Стили для маленькихразрешений */
+
+@media   (max-width: 1440px) {
+
+    .footer_promo .guarantee img {
+
+        width: 100px;
+        height: auto;
+
+    }
+
+    #columns{
+        background-position-x: 40%;
+    }
+
+}
+
+@media   (max-width: 1350px) {
+
+    .make_order_bottom {
+        margin-top: 60px;
+    }
+
+}
+
+
+@media   (max-width: 1290px) {
+
+    .footer_promo .guarantee img {
+
+        width: 90px;
+        height: auto;
+
+    }
+
+    #columns{
+        background-position-x: 70%;
+    }
+
+    .make_order_bottom {
+        margin-top: 20px;
+    }
+
+}
+
+@media   (max-width: 1250px) {
+
+    .footer_promo .guarantee img {
+
+        width: 80px;
+        height: auto;
+
+    }
+
+    #columns{
+        background-position-x: 55%;
+    }
+
+    #about_pan img {
+        margin-bottom: 150px;
+    }
+
+}
+
+
+
+@media   (max-width: 1220px) {
+
+    .footer_promo .guarantee img {
+
+        width: 70px;
+        height: auto;
+        margin-top: 20px;
+
+    }
+
+    #columns{
+        background-position-x: 50%;
+    }
+
+    #about_pan img {
+        margin-bottom: 150px;
+    }
+
+    .footer_promo {
+        min-width: 300px;
+        max-width: 450px;
+        display: inline-block;
+        margin-left: 14px;
+        margin-right: 14px;
+        width: 49%;
+    }
+
+}
+
+
+@media   (max-width: 1185px) {
+
+    .footer_promo .guarantee img {
+
+        width: 60px;
+        height: auto;
+        margin-top: 20px;
+
+    }
+    .footer_promo_right .order_button{
+
+        margin-right: 30px;
+
+    }
+
+    #columns{
+        background-position-x: 40%;
+    }
+
+    #about_pan h2 {
+        font-size: 28px;
+    }
+
+    #about_pan img {
+        margin-bottom: 140px;
+    }
+
+    .red_circle .description{
+        font-size: 12px;
+    }
+
+}
+
+@media   (max-width: 1152px) {
+
+    .footer_promo .guarantee img {
+        width: 50px;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    #columns{
+        background-position-x: 30%;
+    }
+
+    #about_pan h2 {
+        font-size: 26px;
+    }
+
+    #about_pan img {
+        margin-bottom: 160px;
+    }
+
+    .red_circle .description{
+        font-size: 12px;
+    }
+
+    .make_order_bottom {
+        margin-top: 10px;
+    }
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+    #about_pan h2 {
+        font-size: 26px;
+    }
+
+    #about_pan img {
+        margin-bottom: 160px;
+    }
+
+    .red_circle .description{
+        font-size: 12px;
+    }
+
+
+
+}
+
+
+
+

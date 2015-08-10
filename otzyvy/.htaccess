@@ -1,0 +1,33 @@
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+
+<IfModule mod_charset.c>
+	CharsetSourceEnc utf-8
+	CharsetDefault utf-8
+</IfModule>
+
+<IfModule mod_expires.c>
+    <FilesMatch "\.(ico|mpg|mov|jpg|jpeg|png|gif|swf|css|js|flv|mp4)$">
+        ExpiresActive On
+        ExpiresDefault "access plus 1 month"
+        ExpiresDefault A604800
+        FileETag MTime Size
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(woff)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
+
+RewriteEngine on
+RewriteBase /otzyvy
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /otzyvy/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
